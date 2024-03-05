@@ -1,17 +1,15 @@
-package se.lexicon.todoapi.model;
+package se.lexicon.todoapi.model.Entity;
 
 import jakarta.persistence.*;
 import jdk.jfr.Name;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Builder
 
 public class Role {
     @Id
